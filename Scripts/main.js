@@ -20,7 +20,7 @@ function calculate(event) {
   } else if (clickedButton === "C") {
     // clear the display
     display.value = "";
-  } else if (clickedButton === "X") {
+  } else if (clickedButton === "Del") {
     display.value = display.value.slice(0, -1);
   } else {
     // otherwise concatenate it to the display
